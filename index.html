@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="weather">
+
+        <h1 class="weather__title">
+            Weather Dashboard
+        </h1>
+
+        <button id="themeToggle" class="weather__theme-btn">Dark Mode</button>
+
+        <!-- search  -->
+         <div class="weather__search">
+
+            <input type="text" id="cityInput" class="weather__input" placeholder= "Enter city name" >
+
+            <button id="searchBtn" class="weather__button" aria-label="Search Weather">Search</button>
+
+            <button id="locationBtn" class="weather__button">Use My Location</button>
+         </div>   
+        <!-- Loading -->
+         <p id="loading" class="weather__loading">
+            Loading...
+         </p>
+
+        <!-- Error -->
+         <p id="error" class="weather__error"></p>
+
+        <!-- Weather Card -->
+         <div
+            id="weatherContainer"
+            class="weather__card"
+         >       
+            <h2 id="cityName" class="weather__city"></h2>
+
+            <img id="weatherIcon" class="weather__icon">
+
+            <p id="temperature" class="weather__temp"></p>
+
+            <p id="description" class="weather__description"></p>
+
+            <p id="humidity" class="weather__humidity"></p>
+
+            <p id="windSpeed" class="weather__wind"></p>
+
+            <button id="saveFavoriteBtn" class="favorites__button">Save City</button>
+        </div>
+
+        <!-- Forecast Section -->
+         <div class="forecast">
+             <h2 class="forecast__title">5-Day Forecast</h2>
+
+             <div id="forecastContainer" class="forecast__container">
+         </div>
+
+        
+        <!-- FAVORITES -->
+         <div class="favorites">
+            <h2 class="favorites__title">Favorite Cities</h2>
+            <div id="favoritesContainer" class="favorites__container"></div>
+         </div> 
+
+</div>
+
+    </div>
+
+    <script type="module" src="js/app.js"></script>              
+         
+    </div>
+    
+</body>
+</html>
