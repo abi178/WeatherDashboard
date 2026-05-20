@@ -87,6 +87,10 @@ git clone https://github.com/abi178/WeatherDashboard.git
 
 # API Used
 
+## API Key Note
+
+The OpenWeatherMap API key used in this project is for development purposes only and is included directly in the JavaScript file for simplicity.
+
 ## OpenWeatherMap API
 
 Current Weather Endpoint:
