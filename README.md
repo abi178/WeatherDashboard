@@ -16,6 +16,11 @@ This project demonstrates the use of asynchronous JavaScript, REST APIs, modular
 
 ---
 
+## Live Demo
+
+ https://abi178.github.io/WeatherDashboard/
+---
+
 # Features
 
 - Search weather by city name
